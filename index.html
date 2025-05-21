@@ -14,6 +14,16 @@
 
     gtag('config', 'G-EBPE41L69T');
     </script>
+
+    <script>
+        document.getElementById('botao-teste').addEventListener('click', function() {
+            gtag('event', 'clique_botao', {
+            'event_category': 'interação',
+            'event_label': 'botao_teste',
+            'value': 1
+            });
+        });
+</script>
     <title>Portifolio</title>
 </head>
 <body>
@@ -21,6 +31,7 @@
 
     <h2> Olá meu nome é Paulo Sérgio Madureira de Souza</h2>
 
+    <button id="botao_test">Clique para teste</button>
 
 </body>
 </html>
