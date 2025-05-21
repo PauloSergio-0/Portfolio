@@ -18,7 +18,7 @@ function clicar_botao(){
 
 function bem_vindo(){
     document.getElementById('botao-bem_vindo').addEventListener('click', function() {
-        gtag('event', 'bem_vindo-page', {
+        gtag('event', 'bem_vindo_page', {
         'event_category': 'interação',
         'event_label': 'bem_vindo',
         'value': 1
